@@ -1,0 +1,49 @@
+.section-6-wrapper {
+  width: 100%;
+  background-image: url(./assets/img/section6-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-block: 100px;
+  padding-block: 100px;
+}
+
+.section-6-container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+
+.section-6-container iframe {
+  border-radius: 50px;
+  /* width: 100%; */
+  aspect-ratio: 16/9;
+}
+
+.section-6-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    color: #fff;
+}
+
+.section-6-heading {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.text {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.section-6-content button {
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #00208a;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

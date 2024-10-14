@@ -1,0 +1,55 @@
+.section-3-wrapper {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-block: 100px;
+}
+
+.section-3-wrapper section {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 20px;
+}
+
+.section-3-wrapper section div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.section-3-wrapper section div .heading {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.section-3-wrapper section div > span {
+  position: relative;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #000;
+  /* display: flex;
+  align-items: center; */
+  gap: 5px;
+}
+
+.section-3-wrapper section div span::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #2ea3f2;
+}
+
+.section-3-wrapper section div span span {
+  font-weight: 400;
+  font-size: 1rem;
+}

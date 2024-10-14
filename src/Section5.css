@@ -1,0 +1,31 @@
+.section-5-wrapper {
+  width: 100%;
+  background-color: #fff;
+  margin-block: 100px;
+}
+
+.section-5-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  gap: 40px;
+  padding: 20px;
+}
+
+.section-5-container .heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.partners {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.partners img {
+    width: 80%;
+}

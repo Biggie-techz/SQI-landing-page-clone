@@ -1,0 +1,66 @@
+.section-2-wrapper {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.section2-container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.section2-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #00208a;
+}
+.section2-container section {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.section2-container section div {
+    width: 100%;
+}
+
+.section2-container section img {
+  width: 100%;
+  filter: grayscale();
+}
+
+.section2-container section div .heading {
+    font-size: 1.5rem;
+    color: #00208a;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.section2-container section div .sub-heading {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-block: 25px;
+}
+.section2-container section div a {
+    position: relative;
+    font-size: 1.2rem;
+    color: #00208a;
+    text-decoration: none;
+}
+
+.section2-container section div a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #00208a;
+    transition: 0.3s;
+}
